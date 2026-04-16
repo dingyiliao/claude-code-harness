@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc -l D:/workspace/ai/claude-code/src/**/*.ts D:/workspace/ai/claude-code/src/**/*.tsx)",
+      "WebFetch(domain:github.com)"
+    ]
+  }
+}

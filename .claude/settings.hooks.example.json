@@ -1,0 +1,18 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|PowerShell",
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "powershell",
+            "command": ".\\.claude\\hooks\\block-risky-shell.ps1",
+            "timeout": 5,
+            "statusMessage": "Checking risky shell command"
+          }
+        ]
+      }
+    ]
+  }
+}
